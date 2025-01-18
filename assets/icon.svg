@@ -1,0 +1,17 @@
+<svg width="1024" height="1024" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <circle cx="512" cy="512" r="460" fill="#2962ff"/>
+    
+    <!-- Computer Screen -->
+    <rect x="256" y="256" width="512" height="384" rx="20" fill="white"/>
+    <rect x="280" y="280" width="464" height="312" rx="10" fill="#e3f2fd"/>
+    
+    <!-- Repair Symbol -->
+    <g transform="translate(512,512) scale(0.6) translate(-512,-512)">
+        <path d="M512,320c-106,0-192,86-192,192s86,192,192,192s192-86,192-192S618,320,512,320z" fill="#1e88e5"/>
+        <path d="M587,587l-75-75l75-75l-50-50l-75,75l-75-75l-50,50l75,75l-75,75l50,50l75-75l75,75L587,587z" fill="white"/>
+    </g>
+    
+    <!-- Keyboard -->
+    <rect x="362" y="680" width="300" height="30" rx="5" fill="white"/>
+</svg>
